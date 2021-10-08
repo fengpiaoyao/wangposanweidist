@@ -1,0 +1,10 @@
+{
+    "result": {
+        "leader": "徐伟伟",
+        "statics": {
+            "total": 236,
+            "abnormal": 6,
+            "overtime": 4
+        }
+    }
+}

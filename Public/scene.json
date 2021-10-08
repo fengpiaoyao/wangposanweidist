@@ -1,0 +1,363 @@
+{
+    "sceneTree": {
+        "root": {
+            "children": [{
+                "title": "图层",
+                "children": [{
+                    "title": "地面模型",
+                    "children": [{
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "65ee5c78-f55d-469c-a1d3-7e2b7f680abb",
+                            "name": "工业广场",
+                            "url": "http://10.10.22.22:7070/model/9b7723b01c5f11ec8303f35ccbfb112c/tileset.json",
+                            "xbsjPosition": [1.9675149017609634, 0.622623521368701, 920.49],
+                            "xbsjUseOriginTransform": false,
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "f757ab4f-dde1-4bea-9b08-1467de4fd72d",
+                            "name": "塔里风井",
+                            "url": "http://10.10.22.22:7070/model/149b41d01f4011ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9664550051941296, 0.6228455307402133, 1069.96],
+                            "xbsjUseOriginTransform": false,
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "5f339f09-a9e3-458b-9887-e33cdb4ed0f3",
+                            "name": "上寺头风井",
+                            "url": "http://10.10.22.22:7070/model/0a4ae0501f4011ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670114563022383, 0.622648378347908, 1015.52],
+                            "xbsjUseOriginTransform": false,
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }]
+                }, {
+                    "title": "地质体模型",
+                    "children": [{
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "e15b9985-35f8-4362-9612-6a4e8ea9b836",
+                            "name": "巷道",
+                            "url": "http://10.10.22.22:7070/model/dec907401f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9668892342997917, 0.622768712750082, 435.3497202874549],
+                            "xbsjStyle": "var style = {\n    color: \"vec4(1.0, 1.0, 1.0,0.7)\"\n}",
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }]
+                }, {
+                    "title": "系统专业模型",
+                    "children": [{
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "6ee27b19-49a8-490d-84d0-1a2e29d0a9b9",
+                            "name": "3308工作面顺槽临时避难硐室",
+                            "url": "http://10.10.22.22:7070/model/770130101f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9668990011048042, 0.6226754338535019, 439.2628637514711],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "0aac0a58-2bb7-4bd5-8895-ea5d45e42d4e",
+                            "name": "架空乘人器模型",
+                            "url": "http://10.10.22.22:7070/model/83a56ca01f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670127161753013, 0.6227051516403487, 576.3999999532684],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "3a7b3c02-53df-4a43-9985-a37bbba99005",
+                            "name": "井下管道管托模型",
+                            "url": "http://10.10.22.22:7070/model/8e3a9f501f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670105881865012, 0.6226994222638604, 572.1142505080209],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "ff1109ec-e271-4295-92ef-65437bfd2b20",
+                            "name": "井下瓦斯管道模型",
+                            "url": "http://10.10.22.22:7070/model/969858901f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "217e6a05-83a6-462d-9833-78aa9ff13c4a",
+                            "name": "井下压风管道模型",
+                            "url": "http://10.10.22.22:7070/model/9fdc2c101f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "3d0a6f20-a23a-4e9f-aaaf-2fb80f6291d5",
+                            "name": "中央水泵房_设备模型",
+                            "url": "http://10.10.22.22:7070/model/aa9e3b201f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "f602dec4-9b83-40de-a441-7d170f2036ee",
+                            "name": "主运系统_带式输送机模型",
+                            "url": "http://10.10.22.22:7070/model/b53cbca01f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9668990011048042, 0.6226754338535019, 439.2628637514711],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "f288750f-44c8-4c88-986a-b4146f91ac38",
+                            "name": "安全监测监控_设备设施模型",
+                            "url": "http://10.10.22.22:7070/model/bd3e9a401f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "5327715f-8582-4bcc-9834-eb2361bf9467",
+                            "name": "中央变电所_设备模型",
+                            "url": "http://10.10.22.22:7070/model/c3a31b901f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670105881865012, 0.6226994222638604, 572.1142505080209],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "af6b24f8-9a08-4365-9402-9504826e6375",
+                            "name": "给排水_井下排水管道模型",
+                            "url": "http://10.10.22.22:7070/model/c95e16701f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "0cd4dae4-cc6f-4edd-afea-c5de808adf85",
+                            "name": "给排水_井下消防洒水管道模型",
+                            "url": "http://10.10.22.22:7070/model/cf0b2ea01f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "d3596217-f506-48b2-92b8-50d61092b4c8",
+                            "name": "中央水泵房_管道模型",
+                            "url": "http://10.10.22.22:7070/model/d45566501f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.9670109519867833, 0.6226996123119934, 571.8242504882103],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "3308工作面_设备模型",
+                            "url": "http://10.10.22.22:7070/model/d985d4701f3f11ecaf76b9fb112e392c/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "安全监控_设备模型",
+                            "url": "http://10.10.22.22:7070/model/8b8cdb20210511ec845c838f0b29a699/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "人员定位_分站模型",
+                            "url": "http://10.10.22.22:7070/model/fe4105b0210511ec845c838f0b29a699/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "视频监控_设备模型",
+                            "url": "http://10.10.22.22:7070/model/0ccaf230210611ec845c838f0b29a699/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "3206运顺掘进工作面_设备模型",
+                            "url": "http://10.10.22.22:7070/model/1e376530210611ec845c838f0b29a699/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }, {
+                        "czmObject": {
+                            "xbsjType": "Tileset",
+                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                            "name": "3304运顺掘进工作面_设备模型",
+                            "url": "http://10.10.22.22:7070/model/2e2faec0210611ec845c838f0b29a699/tileset.json",
+                            "xbsjPosition": [1.966424240469136, 0.6224819627035294, 472.57112657647156],
+                            "xbsjClippingPlanes": {},
+                            "xbsjCustomShader": {}
+                        }
+                    }]
+                }, {
+                    "title": "其它",
+                    "children": []
+                }]
+            }]
+        }
+    },
+    "cameraViewManager": {
+        "globe": {
+            "position": [2.1031217486531677, 0.5042461979915104, 22191651.019924622],
+            "rotation": [0, -1.5704894508531937, 0],
+            "near": 0.1,
+            "far": 10000000000
+        },
+        "china": {
+            "position": [1.8770894704964525, 0.662547523843314, 8511735.797037361],
+            "rotation": [0, -1.5701114159178209, 0],
+            "near": 0.1,
+            "far": 10000000000
+        },
+        "lastView": {
+            "position": [1.9670109232722663, 0.6226273724939565, 1148.7421073644484],
+            "rotation": [0.008966836187134675, -0.8981965448299216, 0.00004593103517169794],
+            "fov": 1.0471975511965976,
+            "near": 0.1,
+            "far": 10000000000
+        }
+    },
+    "cameraFlight": {
+        "xbsjType": "CameraFlight",
+        "xbsjGuid": "7379854f-3174-40ab-b5c2-be875607a8d8",
+        "rotateGlobe": {
+            "xbsjType": "RotateGlobe",
+            "xbsjGuid": "4b441ac1-f5a6-4a61-a8bf-6c34b339379d"
+        },
+        "rotateCenter": {
+            "xbsjType": "RotateCenter",
+            "xbsjGuid": "0aa4f14e-55da-4814-9c5b-554bd2818a67"
+        },
+        "track": {
+            "xbsjType": "CameraTrack",
+            "xbsjGuid": "acb1ace7-27da-427d-abc5-744a7a3e2f4a"
+        }
+    },
+    "weather": {
+        "fog": {},
+        "sun": {},
+        "skyBox": {},
+        "moon": {},
+        "rain": {},
+        "snow": {},
+        "cloud": {},
+        "atmosphere": {},
+        "rainPostProcess": {},
+        "snowPostProcess": {},
+        "fogPostProcess": {}
+    },
+    "terrainEffect": {
+        "elevation": {
+            "xbsjType": "ElevationRamp",
+            "xbsjGuid": "5b638992-5f2c-43e7-8f2b-9bbbb7bac76b"
+        },
+        "slope": {
+            "xbsjType": "SlopeRamp",
+            "xbsjGuid": "dbf2dee7-2d45-407e-bec6-719f2496eab4"
+        },
+        "aspect": {
+            "xbsjType": "AspectRamp",
+            "xbsjGuid": "1a9d2457-2aca-4fa7-8ad0-5cf5f92c880a"
+        },
+        "contour": {},
+        "restrict": {},
+        "baseColor": [0, 0.027450980392156862, 0.13725490196078433, 1],
+        "globeTranslucency": {}
+    },
+    "postProcess": {
+        "xbsjType": "PostProcess",
+        "xbsjGuid": "81b59787-5150-4c14-b96a-491fd4298cf0",
+        "ambientOcclusion": {
+            "xbsjType": "AmbientOcclusionStage",
+            "xbsjGuid": "552c18b7-a85b-45a9-873a-aa099c7323bc"
+        },
+        "bloom": {
+            "xbsjType": "BloomStage",
+            "xbsjGuid": "928aa14e-e262-4bb8-94f0-157d8bf21f09"
+        },
+        "blackAndWhite": {
+            "xbsjType": "BlackAndWhiteStage",
+            "xbsjGuid": "072d45f6-9aff-402a-91ba-591208337635"
+        },
+        "brightness": {
+            "xbsjType": "BrightnessStage",
+            "xbsjGuid": "01ca90e9-011d-42a6-99a3-3fcafcd191bd"
+        },
+        "depthOfField": {
+            "xbsjType": "DepthOfFieldStage",
+            "xbsjGuid": "5285e3bc-b591-436c-9ec8-32da688d7db9"
+        },
+        "lensFlare": {
+            "xbsjType": "LensFlareStage",
+            "xbsjGuid": "1c145884-4dc7-4b79-b48d-e19de882ec31"
+        },
+        "mosaic": {
+            "xbsjType": "MosaicStage",
+            "xbsjGuid": "3258a805-be57-4643-abf5-163425b8306c"
+        },
+        "nightVision": {
+            "xbsjType": "NightVisionStage",
+            "xbsjGuid": "1aa59107-cdef-4b72-837d-b77f33d1a5c1"
+        },
+        "silhouette": {
+            "xbsjType": "XbsSilhouetteStage",
+            "xbsjGuid": "cee857f8-92d0-423d-99d8-bd1d43085a21"
+        }
+    },
+    "effect": {
+        "xbsjType": "Effect",
+        "xbsjGuid": "25b5b02c-73c9-4abe-a04e-89c4b0117268",
+        "shadow": {
+            "xbsjType": "Shadow",
+            "xbsjGuid": "d5b1ff47-a47d-404c-841d-3c9c4e8a31f1"
+        },
+        "forceSunPos": {}
+    }
+}
