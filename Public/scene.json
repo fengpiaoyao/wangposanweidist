@@ -10,7 +10,7 @@
                             "xbsjType": "Tileset",
                             "xbsjGuid": "65ee5c78-f55d-469c-a1d3-7e2b7f680abb",
                             "name": "工业广场",
-                            "url": "http://10.10.22.22:7070/model/39cebce0284411ec9add5325c30a2240/tileset.json",
+                            "url": "http://114.64.236.171:7070/model/39cebce0284411ec9add5325c30a2240/tileset.json",
                             "xbsjPosition": [1.9675149017609634, 0.622623521368701, 920.49],
                             "xbsjUseOriginTransform": false,
                             "xbsjClippingPlanes": {},
@@ -21,7 +21,7 @@
                             "xbsjType": "Tileset",
                             "xbsjGuid": "f757ab4f-dde1-4bea-9b08-1467de4fd72d",
                             "name": "塔里风井",
-                            "url": "http://10.10.22.22:7070/model/498b5d00284411ec9add5325c30a2240/tileset.json",
+                            "url": "http://114.64.236.171:7070/model/498b5d00284411ec9add5325c30a2240/tileset.json",
                             "xbsjPosition": [1.9664550051941296, 0.6228455307402133, 1069.96],
                             "xbsjUseOriginTransform": false,
                             "xbsjClippingPlanes": {},
@@ -32,7 +32,7 @@
                             "xbsjType": "Tileset",
                             "xbsjGuid": "5f339f09-a9e3-458b-9887-e33cdb4ed0f3",
                             "name": "上寺头风井",
-                            "url": "http://10.10.22.22:7070/model/418fe800284411ec9add5325c30a2240/tileset.json",
+                            "url": "http://114.64.236.171:7070/model/418fe800284411ec9add5325c30a2240/tileset.json",
                             "xbsjPosition": [1.9670114563022383, 0.622648378347908, 1015.52],
                             "xbsjUseOriginTransform": false,
                             "xbsjClippingPlanes": {},
@@ -46,7 +46,7 @@
                             "xbsjType": "Tileset",
                             "xbsjGuid": "e15b9985-35f8-4362-9612-6a4e8ea9b836",
                             "name": "巷道",
-                            "url": "http://10.10.22.22:7070/model/2e168e00284411ec9add5325c30a2240/tileset.json",
+                            "url": "http://114.64.236.171:7070/model/2e168e00284411ec9add5325c30a2240/tileset.json",
                             "xbsjClippingPlanes": {},
                             "xbsjCustomShader": {}
                         }
@@ -54,178 +54,179 @@
                 }, {
                     "title": "系统专业模型",
                     "children": [{
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "6ee27b19-49a8-490d-84d0-1a2e29d0a9b9",
-                            "name": "工作面模型",
-                            "url": "http://10.10.22.22:7070/model/d16f32f028da11ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "6ee27b19-49a8-490d-84d0-1a2e29d0a9b9",
+                                "name": "工作面模型",
+                                "url": "http://114.64.236.171:7070/model/d16f32f028da11ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "6ee27b19-49a8-490d-84d0-1a2e29d0a9b9",
+                                "name": "工作面标注",
+                                "url": "http://114.64.236.171:7070/model/d80f5db028da11ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        },
+                        {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "0aac0a58-2bb7-4bd5-8895-ea5d45e42d4e",
+                                "name": "3308工作面_设备模型",
+                                "url": "http://114.64.236.171:7070/model/18427b20284411ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "3a7b3c02-53df-4a43-9985-a37bbba99005",
+                                "name": "3304运顺掘进工作面_设备模型",
+                                "url": "http://114.64.236.171:7070/model/11c19830284411ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "ff1109ec-e271-4295-92ef-65437bfd2b20",
+                                "name": "3206运顺掘进工作面_设备模型",
+                                "url": "http://114.64.236.171:7070/model/0b6ea310284411ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "217e6a05-83a6-462d-9833-78aa9ff13c4a",
+                                "name": "中央水泵房_管道模型",
+                                "url": "http://114.64.236.171:7070/model/f275d090284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "3d0a6f20-a23a-4e9f-aaaf-2fb80f6291d5",
+                                "name": "井下消防洒水管道模型",
+                                "url": "http://114.64.236.171:7070/model/ecd40300284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "f602dec4-9b83-40de-a441-7d170f2036ee",
+                                "name": "井下排水管道模型",
+                                "url": "http://114.64.236.171:7070/model/ce692580284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "f288750f-44c8-4c88-986a-b4146f91ac38",
+                                "name": "中央变电所_设备模型",
+                                "url": "http://114.64.236.171:7070/model/c6d46190284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "5327715f-8582-4bcc-9834-eb2361bf9467",
+                                "name": "视频监控_设备模型",
+                                "url": "http://114.64.236.171:7070/model/bf8c3700284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "af6b24f8-9a08-4365-9402-9504826e6375",
+                                "name": "人员定位_分站模型",
+                                "url": "http://114.64.236.171:7070/model/ba9f3a80284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "0cd4dae4-cc6f-4edd-afea-c5de808adf85",
+                                "name": "安全监控_设备模型",
+                                "url": "http://114.64.236.171:7070/model/b5c6fe80284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "d3596217-f506-48b2-92b8-50d61092b4c8",
+                                "name": "主运系统_带式输送机模型",
+                                "url": "http://114.64.236.171:7070/model/b0414470284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "中央水泵房_设备模型",
+                                "url": "http://114.64.236.171:7070/model/ab5d2190284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "井下压风管道模型",
+                                "url": "http://114.64.236.171:7070/model/a66b4310284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "井下瓦斯管道模型",
+                                "url": "http://114.64.236.171:7070/model/a08c9390284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "井下管道管托模型",
+                                "url": "http://114.64.236.171:7070/model/99f59090284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "架空乘人器模型",
+                                "url": "http://114.64.236.171:7070/model/8fb90530284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
+                        }, {
+                            "czmObject": {
+                                "xbsjType": "Tileset",
+                                "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
+                                "name": "3308工作面顺槽临时避难硐室_设备设施模型",
+                                "url": "http://114.64.236.171:7070/model/80ea6e90284311ec9add5325c30a2240/tileset.json",
+                                "xbsjClippingPlanes": {},
+                                "xbsjCustomShader": {}
+                            }
                         }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "6ee27b19-49a8-490d-84d0-1a2e29d0a9b9",
-                            "name": "工作面标注",
-                            "url": "http://10.10.22.22:7070/model/d80f5db028da11ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    },
-                    {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "0aac0a58-2bb7-4bd5-8895-ea5d45e42d4e",
-                            "name": "3308工作面_设备模型",
-                            "url": "http://10.10.22.22:7070/model/18427b20284411ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "3a7b3c02-53df-4a43-9985-a37bbba99005",
-                            "name": "3304运顺掘进工作面_设备模型",
-                            "url": "http://10.10.22.22:7070/model/11c19830284411ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "ff1109ec-e271-4295-92ef-65437bfd2b20",
-                            "name": "3206运顺掘进工作面_设备模型",
-                            "url": "http://10.10.22.22:7070/model/0b6ea310284411ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "217e6a05-83a6-462d-9833-78aa9ff13c4a",
-                            "name": "中央水泵房_管道模型",
-                            "url": "http://10.10.22.22:7070/model/f275d090284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "3d0a6f20-a23a-4e9f-aaaf-2fb80f6291d5",
-                            "name": "井下消防洒水管道模型",
-                            "url": "http://10.10.22.22:7070/model/ecd40300284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "f602dec4-9b83-40de-a441-7d170f2036ee",
-                            "name": "井下排水管道模型",
-                            "url": "http://10.10.22.22:7070/model/ce692580284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "f288750f-44c8-4c88-986a-b4146f91ac38",
-                            "name": "中央变电所_设备模型",
-                            "url": "http://10.10.22.22:7070/model/c6d46190284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "5327715f-8582-4bcc-9834-eb2361bf9467",
-                            "name": "视频监控_设备模型",
-                            "url": "http://10.10.22.22:7070/model/bf8c3700284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "af6b24f8-9a08-4365-9402-9504826e6375",
-                            "name": "人员定位_分站模型",
-                            "url": "http://10.10.22.22:7070/model/ba9f3a80284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "0cd4dae4-cc6f-4edd-afea-c5de808adf85",
-                            "name": "安全监控_设备模型",
-                            "url": "http://10.10.22.22:7070/model/b5c6fe80284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "d3596217-f506-48b2-92b8-50d61092b4c8",
-                            "name": "主运系统_带式输送机模型",
-                            "url": "http://10.10.22.22:7070/model/b0414470284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "中央水泵房_设备模型",
-                            "url": "http://10.10.22.22:7070/model/ab5d2190284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "井下压风管道模型",
-                            "url": "http://10.10.22.22:7070/model/a66b4310284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "井下瓦斯管道模型",
-                            "url": "http://10.10.22.22:7070/model/a08c9390284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "井下管道管托模型",
-                            "url": "http://10.10.22.22:7070/model/99f59090284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "架空乘人器模型",
-                            "url": "http://10.10.22.22:7070/model/8fb90530284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }, {
-                        "czmObject": {
-                            "xbsjType": "Tileset",
-                            "xbsjGuid": "b038573c-658d-4aa1-9cd9-78f6d8c592cb",
-                            "name": "3308工作面顺槽临时避难硐室_设备设施模型",
-                            "url": "http://10.10.22.22:7070/model/80ea6e90284311ec9add5325c30a2240/tileset.json",
-                            "xbsjClippingPlanes": {},
-                            "xbsjCustomShader": {}
-                        }
-                    }]
+                    ]
                 }, {
                     "title": "其它",
                     "children": []
