@@ -1,26 +1,26 @@
-var initTree = (function (axios, XbsjEarthUI) {
+var initTree = (function(axios, XbsjEarthUI) {
     var initObj = {};
     var that = this;
-    initObj.init = function () {
-        initObj.tree('/Public/scene.json');
+    initObj.init = function() {
+            initObj.tree('/Public/scene.json');
 
-    },
+        },
         //初始化树并定位到指定位置
-        initObj.tree = function (url) {
+        initObj.tree = function(url) {
             XbsjEarthUI.create('main').then((earthUI) => {
                 window.uia = earthUI;
                 axios.get(url).then(res => {
-                    //添加tree的所有子
-                    var root;
-                    if (res.data) {
-                        if (res.data.sceneTree.root) {
-                            root = res.data.sceneTree.root;
+                        //添加tree的所有子
+                        var root;
+                        if (res.data) {
+                            if (res.data.sceneTree.root) {
+                                root = res.data.sceneTree.root;
+                            }
+                            earthUI.earth.sceneTree.root = root;
                         }
-                        earthUI.earth.sceneTree.root = root;
-                    }
 
-                })
-                //修改地球颜色
+                    })
+                    //修改地球颜色
                 earthUI.earth.terrainEffect.baseColor = [0, 7 / 255.0, 35 / 255.0, 1];
                 //开启地下模式及深度检测
                 // earthUI.earth.terrainEffect.depthTest = true;
@@ -33,7 +33,7 @@ var initTree = (function (axios, XbsjEarthUI) {
             });
         },
         // 添加矿区边界
-        initObj.showwalllist = function () {
+        initObj.showwalllist = function() {
             initObj.dataSources2 = new Cesium.CustomDataSource(Cesium.createGuid())
             var viewer = window.uia.earth.czm.viewer;
             viewer.dataSources.add(initObj.dataSources2)
@@ -78,7 +78,7 @@ var initTree = (function (axios, XbsjEarthUI) {
             }
 
         },
-        initObj.showwall = function (opt) {
+        initObj.showwall = function(opt) {
             var alp = 0.8
             var num = 0
             var maximumHeights = []
@@ -98,7 +98,7 @@ var initTree = (function (axios, XbsjEarthUI) {
                     material: new Cesium.ImageMaterialProperty({
                         image: '../../Public/img/fence.png',
                         transparent: true,
-                        color: new Cesium.CallbackProperty(function () {
+                        color: new Cesium.CallbackProperty(function() {
                             if ((num % 2) === 0) {
                                 alp -= 0.015
                             } else {
@@ -111,25 +111,21 @@ var initTree = (function (axios, XbsjEarthUI) {
                                 num++
                             }
                             return opt.color.withAlpha(alp)
-                            // entity的颜色透明 并不影响材质，并且 entity也会透明
+                                // entity的颜色透明 并不影响材质，并且 entity也会透明
                         }, false)
                     })
                 }
             })
             a1.prop = opt.prop
         }
-    // 添加巷道底部平面，使容易进入巷道
-    initObj.addPolygon = function () {
+        // 添加巷道底部平面，使容易进入巷道
+    initObj.addPolygon = function() {
         var viewer = window.uia.earth.czm.viewer;
         var polygon = viewer.entities.add({
             id: 'emmm',
             polygon: {
                 hierarchy: {
                     positions: [
-                        // Cesium.Cartesian3.fromDegrees(112.5, 35.5, 400),
-                        // Cesium.Cartesian3.fromDegrees(112.9, 35.5, 400),
-                        // Cesium.Cartesian3.fromDegrees(112.9, 35.8, 400),
-                        // Cesium.Cartesian3.fromDegrees(112.5, 35.8, 400)
                         Cesium.Cartesian3.fromDegrees(112.6376709, 35.6465879, 430),
                         Cesium.Cartesian3.fromDegrees(112.6594434, 35.7270388, 430),
                         Cesium.Cartesian3.fromDegrees(112.7489844, 35.7032992, 480),
@@ -139,7 +135,7 @@ var initTree = (function (axios, XbsjEarthUI) {
                 perPositionHeight: true,
                 outline: false,
                 // material: new Cesium.Color(38 / 255.0, 54 / 255.0, 82 / 255.0)
-                material: Cesium.Color.fromCssColorString('#000723'),
+                material: Cesium.Color.fromCssColorString('#00061E'),
                 // outlineColor: Cesium.Color.BLACK.withAlpha(0.05)
             }
         })
